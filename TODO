@@ -1,0 +1,5 @@
+- Need to think about authenticating with FPL.
+- Add some error handling
+- Parse the response to useable structures.
+- Think of cool things to do with all this information
+- Maybe turn this into some kind of CLI?
