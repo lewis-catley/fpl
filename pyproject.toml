@@ -1,4 +1,5 @@
 [project]
 name = "FPL"
-description "Just something to mess around with"
+description = "Just something to mess around with"
 readme = "README.md"
+version = "0.0.1"
