@@ -1,4 +1,6 @@
-- Need to think about authenticating with FPL.
+- Constantly creating the Base client which is lame
+- Store the session cookie, so we don't have to auth every request
+- Already hate the API structure
 - Add some error handling
 - Parse the response to useable structures.
 - Think of cool things to do with all this information

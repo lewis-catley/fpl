@@ -1,7 +1,6 @@
 import logging
 import requests
 
-from packages.fantasy.base_api import Base
 from packages.fantasy.exceptions import FPLUnauthenticatedException
 from packages.fantasy.api.bootstrap import Bootstrap
 from packages.fantasy.api.team import Team
@@ -18,8 +17,6 @@ class Client:
         self._base_url = "https://fantasy.premierleague.com/api"
 
         self._session = requests.Session()
-
-        self.__base = Base(self._base_url, self._session, log_level)
 
         self.bootstrap = Bootstrap(self._base_url, self._session, log_level)
 
